@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="PX4.Commander.Arming" file="Arming.c" />
+  <dependency className="PX4.Commander.Arming" file="Arming.h" />
+  <dependency className="PX4.Commander.Makefile" file="Makefile" />
+  <dependency className="PX4.Commander.TypeSizeConfiguration (P.Commander)" file="TypeSizeConfiguration (P.Commander)" />
+  <dependency className="PX4.Commander.UnitTestMessages_copied" file="UnitTestMessages_copied.c" />
+  <dependency className="PX4.Commander.UnitTestMessages_copied" file="UnitTestMessages_copied.h" />
+</dependenciesRoot>
+

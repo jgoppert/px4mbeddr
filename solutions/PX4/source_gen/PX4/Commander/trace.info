@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info>
+  <concept fqn="com.mbeddr.core.expressions.structure.AssignmentExpr" />
+  <concept fqn="com.mbeddr.core.expressions.structure.GenericDotExpression" />
+  <concept fqn="com.mbeddr.core.expressions.structure.NumberLiteral" />
+  <concept fqn="com.mbeddr.core.expressions.structure.TrueLiteral" />
+  <concept fqn="com.mbeddr.core.modules.structure.ArgumentRef" />
+  <concept fqn="com.mbeddr.core.modules.structure.Function" />
+  <concept fqn="com.mbeddr.core.modules.structure.FunctionCall" />
+  <concept fqn="com.mbeddr.core.modules.structure.FunctionPrototype" />
+  <concept fqn="com.mbeddr.core.modules.structure.LabelStatement" />
+  <concept fqn="com.mbeddr.core.modules.structure.NoOp" />
+  <concept fqn="com.mbeddr.core.modules.structure.ReturnStatement" />
+  <concept fqn="com.mbeddr.core.pointers.structure.NullExpression" />
+  <concept fqn="com.mbeddr.core.pointers.structure.ReferenceExpr" />
+  <concept fqn="com.mbeddr.core.pointers.structure.StringLiteral" />
+  <concept fqn="com.mbeddr.core.statements.structure.ArbitraryTextExpression" />
+  <concept fqn="com.mbeddr.core.statements.structure.BreakStatement" />
+  <concept fqn="com.mbeddr.core.statements.structure.CommentStatement" />
+  <concept fqn="com.mbeddr.core.statements.structure.ExpressionStatement" />
+  <concept fqn="com.mbeddr.core.statements.structure.IfStatement" />
+  <concept fqn="com.mbeddr.core.statements.structure.LocalVarRef" />
+  <concept fqn="com.mbeddr.core.statements.structure.LocalVariableDeclaration" />
+  <concept fqn="com.mbeddr.core.statements.structure.StatementList" />
+  <concept fqn="com.mbeddr.core.statements.structure.SwitchStatement" />
+  <concept fqn="com.mbeddr.core.udt.structure.EnumDeclaration" />
+  <concept fqn="com.mbeddr.core.udt.structure.EnumLiteral" />
+  <concept fqn="com.mbeddr.core.udt.structure.EnumLiteralRef" />
+  <concept fqn="com.mbeddr.core.udt.structure.TypeDef" />
+  <root>
+    <file name="UnitTestMessages_copied.c">
+      <unit at="1,0,97,0" name="PX4.Commander.UnitTestMessages_copied" />
+    </file>
+  </root>
+  <root nodeRef="r:81845acb-b6f6-476c-b6cc-b1488e629ea3(PX4.Commander)/7698343285758249610">
+    <file name="Arming.c">
+      <node id="7698343285758251647" at="7,0,7,50" concept="24" trace="Arming_FsmArming__inevents__FsmArming_arm__event" />
+      <node id="7698343285758251647" at="8,0,8,53" concept="24" trace="Arming_FsmArming__inevents__FsmArming_disarm__event" />
+      <node id="7698343285758251647" at="9,0,9,53" concept="24" trace="Arming_FsmArming__inevents__FsmArming_safety__event" />
+      <node id="7698343285758251647" at="13,0,13,49" concept="24" trace="Arming_FsmArming__states__FsmArming_safe__state" />
+      <node id="7698343285758251647" at="14,0,14,52" concept="24" trace="Arming_FsmArming__states__FsmArming_standby__state" />
+      <node id="7698343285758251647" at="15,0,15,50" concept="24" trace="Arming_FsmArming__states__FsmArming_armed__state" />
+      <node id="7698343285758249610" at="18,0,18,69" concept="26" />
+      <node id="7698343285758249610" at="19,0,19,65" concept="26" />
+      <node id="7698343285758249610" at="20,0,20,63" concept="26" />
+      <node id="7698343285758249610" at="39,10,39,18" concept="4" />
+      <node id="7698343285758249610" at="39,10,39,34" concept="1" />
+      <node id="7698343285758251650" at="41,9,41,56" concept="25" />
+      <node id="7698343285758251650" at="42,14,42,19" concept="4" />
+      <node id="7698343285758273309" at="44,13,44,64" concept="25" />
+      <node id="7698343285758273457" at="45,15,45,19" concept="3" />
+      <node id="7698343285758255779" at="55,16,55,17" concept="9" />
+      <node id="7698343285758255779" at="55,16,55,18" concept="17" />
+      <node id="7698343285758273457" at="62,12,62,20" concept="4" />
+      <node id="7698343285758273457" at="62,12,62,36" concept="1" />
+      <node id="7698343285758273457" at="62,12,62,89" concept="0" />
+      <node id="7698343285758273457" at="62,12,62,90" concept="17" />
+      <node id="7698343285758273457" at="62,39,62,89" concept="25" />
+      <node id="7698343285758273457" at="63,12,63,59" concept="6" />
+      <node id="7698343285758273457" at="63,12,63,60" concept="17" />
+      <node id="7698343285758273457" at="63,50,63,58" concept="4" />
+      <node id="7698343285758273457" at="65,12,65,20" concept="10" />
+      <node id="7698343285758273309" at="67,10,67,16" concept="15" />
+      <node id="7698343285758251650" at="71,6,71,12" concept="15" />
+      <node id="7698343285758273614" at="73,9,73,59" concept="25" />
+      <node id="7698343285758273614" at="74,14,74,19" concept="4" />
+      <node id="7698343285758251648" at="76,13,76,61" concept="25" />
+      <node id="7698343285758273778" at="77,15,77,19" concept="3" />
+      <node id="7698343285758255779" at="87,16,87,17" concept="9" />
+      <node id="7698343285758255779" at="87,16,87,18" concept="17" />
+      <node id="7698343285758273778" at="94,12,94,20" concept="4" />
+      <node id="7698343285758273778" at="94,12,94,36" concept="1" />
+      <node id="7698343285758273778" at="94,12,94,87" concept="0" />
+      <node id="7698343285758273778" at="94,12,94,88" concept="17" />
+      <node id="7698343285758273778" at="94,39,94,87" concept="25" />
+      <node id="7698343285758273778" at="95,12,95,57" concept="6" />
+      <node id="7698343285758273778" at="95,12,95,58" concept="17" />
+      <node id="7698343285758273778" at="95,48,95,56" concept="4" />
+      <node id="7698343285758273778" at="97,12,97,20" concept="10" />
+      <node id="7698343285758251648" at="99,10,99,16" concept="15" />
+      <node id="7698343285758273309" at="101,13,101,64" concept="25" />
+      <node id="7698343285758273765" at="102,15,102,19" concept="3" />
+      <node id="7698343285758255779" at="112,16,112,17" concept="9" />
+      <node id="7698343285758255779" at="112,16,112,18" concept="17" />
+      <node id="7698343285758273765" at="119,12,119,20" concept="4" />
+      <node id="7698343285758273765" at="119,12,119,36" concept="1" />
+      <node id="7698343285758273765" at="119,12,119,86" concept="0" />
+      <node id="7698343285758273765" at="119,12,119,87" concept="17" />
+      <node id="7698343285758273765" at="119,39,119,86" concept="25" />
+      <node id="7698343285758273765" at="120,12,120,56" concept="6" />
+      <node id="7698343285758273765" at="120,12,120,57" concept="17" />
+      <node id="7698343285758273765" at="120,47,120,55" concept="4" />
+      <node id="7698343285758273765" at="122,12,122,20" concept="10" />
+      <node id="7698343285758273309" at="124,10,124,16" concept="15" />
+      <node id="7698343285758273614" at="128,6,128,12" concept="15" />
+      <node id="7698343285758273952" at="130,9,130,57" concept="25" />
+      <node id="7698343285758273952" at="131,14,131,19" concept="4" />
+      <node id="7698343285758273010" at="133,13,133,64" concept="25" />
+      <node id="7698343285758274156" at="134,15,134,19" concept="3" />
+      <node id="7698343285758255779" at="144,16,144,17" concept="9" />
+      <node id="7698343285758255779" at="144,16,144,18" concept="17" />
+      <node id="7698343285758274156" at="151,12,151,20" concept="4" />
+      <node id="7698343285758274156" at="151,12,151,36" concept="1" />
+      <node id="7698343285758274156" at="151,12,151,89" concept="0" />
+      <node id="7698343285758274156" at="151,12,151,90" concept="17" />
+      <node id="7698343285758274156" at="151,39,151,89" concept="25" />
+      <node id="7698343285758274156" at="152,12,152,59" concept="6" />
+      <node id="7698343285758274156" at="152,12,152,60" concept="17" />
+      <node id="7698343285758274156" at="152,50,152,58" concept="4" />
+      <node id="7698343285758274156" at="154,12,154,20" concept="10" />
+      <node id="7698343285758273010" at="156,10,156,16" concept="15" />
+      <node id="7698343285758273309" at="158,13,158,64" concept="25" />
+      <node id="7698343285758274108" at="159,15,159,19" concept="3" />
+      <node id="7698343285758255779" at="169,16,169,17" concept="9" />
+      <node id="7698343285758255779" at="169,16,169,18" concept="17" />
+      <node id="7698343285758274108" at="176,12,176,20" concept="4" />
+      <node id="7698343285758274108" at="176,12,176,36" concept="1" />
+      <node id="7698343285758274108" at="176,12,176,86" concept="0" />
+      <node id="7698343285758274108" at="176,12,176,87" concept="17" />
+      <node id="7698343285758274108" at="176,39,176,86" concept="25" />
+      <node id="7698343285758274108" at="177,12,177,56" concept="6" />
+      <node id="7698343285758274108" at="177,12,177,57" concept="17" />
+      <node id="7698343285758274108" at="177,47,177,55" concept="4" />
+      <node id="7698343285758274108" at="179,12,179,20" concept="10" />
+      <node id="7698343285758273309" at="181,10,181,16" concept="15" />
+      <node id="7698343285758273952" at="185,6,185,12" concept="15" />
+      <node id="7698343285758249610" at="194,2,194,10" concept="4" />
+      <node id="7698343285758249610" at="194,2,194,26" concept="1" />
+      <node id="7698343285758249610" at="194,2,194,76" concept="0" />
+      <node id="7698343285758249610" at="194,2,194,77" concept="17" />
+      <node id="7698343285758249610" at="194,29,194,76" concept="25" />
+      <node id="7698343285758255779" at="197,2,197,3" concept="9" />
+      <node id="7698343285758255779" at="197,2,197,4" concept="17" />
+      <node id="7698343285758255779" at="204,2,204,3" concept="9" />
+      <node id="7698343285758255779" at="204,2,204,4" concept="17" />
+      <node id="7698343285758255779" at="211,2,211,3" concept="9" />
+      <node id="7698343285758255779" at="211,2,211,4" concept="17" />
+      <node id="7698343285758255779" at="218,2,218,3" concept="9" />
+      <node id="7698343285758255779" at="218,2,218,4" concept="17" />
+      <node id="7698343285758249631" at="223,2,223,117" concept="6" />
+      <node id="7698343285758249631" at="223,2,223,118" concept="17" />
+      <node id="7698343285758249631" at="223,29,223,116" concept="13" />
+      <node id="7698343285758271532" at="225,2,225,31" concept="20" />
+      <node id="7698343285758272043" at="226,2,226,30" concept="6" />
+      <node id="7698343285758271912" at="226,2,226,31" concept="17" />
+      <node id="7698343285758272043" at="226,25,226,29" concept="12" />
+      <node id="7698343285758271910" at="226,26,226,29" concept="19" />
+      <node id="7698343285758282195" at="228,4,228,91" concept="6" />
+      <node id="7698343285758282195" at="228,4,228,92" concept="17" />
+      <node id="7698343285758282195" at="228,30,228,34" concept="12" />
+      <node id="7698343285758282053" at="228,31,228,34" concept="19" />
+      <node id="7698343285758282195" at="228,36,228,87" concept="25" />
+      <node id="7698343285758282195" at="228,89,228,90" concept="11" />
+      <node id="7698343285758282997" at="231,4,231,88" concept="6" />
+      <node id="7698343285758282997" at="231,4,231,89" concept="17" />
+      <node id="7698343285758282997" at="231,30,231,34" concept="12" />
+      <node id="7698343285758282851" at="231,31,231,34" concept="19" />
+      <node id="7698343285758282997" at="231,36,231,84" concept="25" />
+      <node id="7698343285758282997" at="231,86,231,87" concept="11" />
+      <node id="7698343285758283834" at="234,4,234,91" concept="6" />
+      <node id="7698343285758283834" at="234,4,234,92" concept="17" />
+      <node id="7698343285758283834" at="234,30,234,34" concept="12" />
+      <node id="7698343285758283684" at="234,31,234,34" concept="19" />
+      <node id="7698343285758283834" at="234,36,234,87" concept="25" />
+      <node id="7698343285758283834" at="234,89,234,90" concept="11" />
+      <node id="7698343285758284706" at="237,4,237,91" concept="6" />
+      <node id="7698343285758284706" at="237,4,237,92" concept="17" />
+      <node id="7698343285758284706" at="237,30,237,34" concept="12" />
+      <node id="7698343285758284552" at="237,31,237,34" concept="19" />
+      <node id="7698343285758284706" at="237,36,237,87" concept="25" />
+      <node id="7698343285758284706" at="237,89,237,90" concept="11" />
+      <node id="7698343285758285613" at="240,4,240,88" concept="6" />
+      <node id="7698343285758285613" at="240,4,240,89" concept="17" />
+      <node id="7698343285758285613" at="240,30,240,34" concept="12" />
+      <node id="7698343285758285455" at="240,31,240,34" concept="19" />
+      <node id="7698343285758285613" at="240,36,240,84" concept="25" />
+      <node id="7698343285758285613" at="240,86,240,87" concept="11" />
+      <node id="7698343285758286555" at="243,4,243,91" concept="6" />
+      <node id="7698343285758286555" at="243,4,243,92" concept="17" />
+      <node id="7698343285758286555" at="243,30,243,34" concept="12" />
+      <node id="7698343285758286393" at="243,31,243,34" concept="19" />
+      <node id="7698343285758286555" at="243,36,243,87" concept="25" />
+      <node id="7698343285758286555" at="243,89,243,90" concept="11" />
+      <node id="7698343285758323710" at="246,4,246,91" concept="6" />
+      <node id="7698343285758323710" at="246,4,246,92" concept="17" />
+      <node id="7698343285758323710" at="246,30,246,34" concept="12" />
+      <node id="7698343285758323545" at="246,31,246,34" concept="19" />
+      <node id="7698343285758323710" at="246,36,246,87" concept="25" />
+      <node id="7698343285758323710" at="246,89,246,90" concept="11" />
+      <node id="7698343285758249621" at="248,2,248,11" concept="10" />
+      <node id="7698343285758249622" at="248,9,248,10" concept="2" />
+      <node id="7698343285758249610" at="256,2,256,41" concept="14" />
+      <node id="7698343285758249610" at="256,2,256,42" concept="17" />
+      <node id="7698343285758249610" at="257,2,257,28" concept="14" />
+      <node id="7698343285758249610" at="257,2,257,29" concept="17" />
+      <node id="7698343285758249610" at="257,23,257,26" concept="4" />
+      <node id="7698343285758249610" at="25,0,26,0" concept="7" trace="PX4.Commander.FsmArming__execute" />
+      <node id="7698343285758249610" at="27,0,28,0" concept="7" trace="PX4.Commander.FsmArming__init" />
+      <node id="7698343285758249610" at="29,0,30,0" concept="7" trace="PX4.Commander.FsmArming_armed_EntryAction0" />
+      <node id="7698343285758249610" at="31,0,32,0" concept="7" trace="PX4.Commander.FsmArming_safe_EntryAction0" />
+      <node id="7698343285758249610" at="33,0,34,0" concept="7" trace="PX4.Commander.FsmArming_standby_EntryAction0" />
+      <node id="7698343285758249610" at="35,0,36,0" concept="7" trace="PX4.Commander.messages_HelloWorld" />
+      <node id="7698343285758273457" at="53,16,54,0" concept="8" />
+      <node id="7698343285758273457" at="63,12,64,12" concept="21" />
+      <node id="7698343285758273778" at="85,16,86,0" concept="8" />
+      <node id="7698343285758273778" at="95,12,96,12" concept="21" />
+      <node id="7698343285758273765" at="110,16,111,0" concept="8" />
+      <node id="7698343285758273765" at="120,12,121,12" concept="21" />
+      <node id="7698343285758274156" at="142,16,143,0" concept="8" />
+      <node id="7698343285758274156" at="152,12,153,12" concept="21" />
+      <node id="7698343285758274108" at="167,16,168,0" concept="8" />
+      <node id="7698343285758274108" at="177,12,178,12" concept="21" />
+      <node id="7698343285758249610" at="195,2,196,0" concept="8" />
+      <node id="7698343285758249610" at="202,2,203,0" concept="8" />
+      <node id="7698343285758249610" at="209,2,210,0" concept="8" />
+      <node id="7698343285758249610" at="216,2,217,0" concept="8" />
+      <node id="7698343285758249631" at="223,2,224,2" concept="21" />
+      <node id="7698343285758282055" at="227,2,229,3" concept="21" />
+      <node id="7698343285758282853" at="230,2,232,3" concept="21" />
+      <node id="7698343285758283686" at="233,2,235,3" concept="21" />
+      <node id="7698343285758284554" at="236,2,238,3" concept="21" />
+      <node id="7698343285758285457" at="239,2,241,3" concept="21" />
+      <node id="7698343285758286395" at="242,2,244,3" concept="21" />
+      <node id="7698343285758323547" at="245,2,247,3" concept="21" />
+      <node id="7698343285758273457" at="48,14,51,0" concept="16" />
+      <node id="7698343285758273457" at="58,12,61,0" concept="16" />
+      <node id="7698343285758273778" at="80,14,83,0" concept="16" />
+      <node id="7698343285758273778" at="90,12,93,0" concept="16" />
+      <node id="7698343285758273765" at="105,14,108,0" concept="16" />
+      <node id="7698343285758273765" at="115,12,118,0" concept="16" />
+      <node id="7698343285758274156" at="137,14,140,0" concept="16" />
+      <node id="7698343285758274156" at="147,12,150,0" concept="16" />
+      <node id="7698343285758274108" at="162,14,165,0" concept="16" />
+      <node id="7698343285758274108" at="172,12,175,0" concept="16" />
+      <node id="7698343285758249610" at="255,0,258,1" concept="21" />
+      <node id="7698343285758273457" at="52,14,56,15" concept="21" />
+      <node id="7698343285758273778" at="84,14,88,15" concept="21" />
+      <node id="7698343285758273765" at="109,14,113,15" concept="21" />
+      <node id="7698343285758274156" at="141,14,145,15" concept="21" />
+      <node id="7698343285758274108" at="166,14,170,15" concept="21" />
+      <node id="7698343285758249610" at="201,0,205,1" concept="21" />
+      <node id="7698343285758249610" at="208,0,212,1" concept="21" />
+      <node id="7698343285758249610" at="215,0,219,1" concept="21" />
+      <node id="7698343285758251647" at="6,0,11,0" concept="23" />
+      <node id="7698343285758251647" at="12,0,17,0" concept="23" />
+      <node id="7698343285758249610" at="193,0,198,1" concept="21" />
+      <node id="7698343285758249610" at="200,0,206,0" concept="5" trace="Arming_FsmArming_armed_EntryAction0" />
+      <node id="7698343285758249610" at="207,0,213,0" concept="5" trace="Arming_FsmArming_safe_EntryAction0" />
+      <node id="7698343285758249610" at="214,0,220,0" concept="5" trace="Arming_FsmArming_standby_EntryAction0" />
+      <node id="7698343285758249610" at="192,0,199,0" concept="5" trace="Arming_FsmArming__init" />
+      <node id="7698343285758249610" at="251,0,259,0" concept="5" trace="Arming_messages_HelloWorld" />
+      <node id="7698343285758273457" at="47,12,57,13" concept="21" />
+      <node id="7698343285758273778" at="79,12,89,13" concept="21" />
+      <node id="7698343285758273765" at="104,12,114,13" concept="21" />
+      <node id="7698343285758274156" at="136,12,146,13" concept="21" />
+      <node id="7698343285758274108" at="161,12,171,13" concept="21" />
+      <node id="7698343285758273457" at="46,10,66,11" concept="21" />
+      <node id="7698343285758273778" at="78,10,98,11" concept="21" />
+      <node id="7698343285758273765" at="103,10,123,11" concept="21" />
+      <node id="7698343285758274156" at="135,10,155,11" concept="21" />
+      <node id="7698343285758274108" at="160,10,180,11" concept="21" />
+      <node id="7698343285758273457" at="45,10,66,11" concept="18" />
+      <node id="7698343285758273778" at="77,10,98,11" concept="18" />
+      <node id="7698343285758273765" at="102,10,123,11" concept="18" />
+      <node id="7698343285758274156" at="134,10,155,11" concept="18" />
+      <node id="7698343285758274108" at="159,10,180,11" concept="18" />
+      <node id="7698343285758249613" at="222,0,249,1" concept="21" />
+      <node id="7698343285758251650" at="42,6,70,0" concept="22" />
+      <node id="7698343285758249611" at="221,0,250,0" concept="5" trace="main" />
+      <node id="7698343285758273614" at="74,6,127,0" concept="22" />
+      <node id="7698343285758273952" at="131,6,184,0" concept="22" />
+      <node id="7698343285758249610" at="39,2,188,0" concept="22" />
+      <node id="7698343285758249610" at="39,2,189,2" concept="21" />
+      <node id="7698343285758249610" at="38,0,190,1" concept="21" />
+      <node id="7698343285758249610" at="37,0,191,0" concept="5" trace="Arming_FsmArming__execute" />
+      <unit id="7698343285758249610" at="1,0,260,0" name="PX4.Commander.Arming" />
+    </file>
+    <file name="Arming.h">
+      <node id="7698343285758249610" at="17,0,18,0" concept="7" trace="PX4.Commander.main" />
+    </file>
+  </root>
+</debug-info>
+
